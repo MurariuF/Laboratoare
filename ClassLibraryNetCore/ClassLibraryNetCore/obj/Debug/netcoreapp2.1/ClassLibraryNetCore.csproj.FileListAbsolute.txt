@@ -1,0 +1,11 @@
+C:\Users\EliteBook\source\repos\ClassLibraryNetCore\ClassLibraryNetCore\bin\Debug\netcoreapp2.1\ClassLibraryNetCore.deps.json
+C:\Users\EliteBook\source\repos\ClassLibraryNetCore\ClassLibraryNetCore\bin\Debug\netcoreapp2.1\ClassLibraryNetCore.dll
+C:\Users\EliteBook\source\repos\ClassLibraryNetCore\ClassLibraryNetCore\obj\Debug\netcoreapp2.1\ClassLibraryNetCore.csprojAssemblyReference.cache
+C:\Users\EliteBook\source\repos\ClassLibraryNetCore\ClassLibraryNetCore\obj\Debug\netcoreapp2.1\ClassLibraryNetCore.csproj.CoreCompileInputs.cache
+C:\Users\EliteBook\source\repos\ClassLibraryNetCore\ClassLibraryNetCore\obj\Debug\netcoreapp2.1\ClassLibraryNetCore.AssemblyInfoInputs.cache
+C:\Users\EliteBook\source\repos\ClassLibraryNetCore\ClassLibraryNetCore\obj\Debug\netcoreapp2.1\ClassLibraryNetCore.AssemblyInfo.cs
+C:\Users\EliteBook\source\repos\ClassLibraryNetCore\ClassLibraryNetCore\bin\Debug\netcoreapp2.1\ClassLibraryNetCore.runtimeconfig.json
+C:\Users\EliteBook\source\repos\ClassLibraryNetCore\ClassLibraryNetCore\bin\Debug\netcoreapp2.1\ClassLibraryNetCore.runtimeconfig.dev.json
+C:\Users\EliteBook\source\repos\ClassLibraryNetCore\ClassLibraryNetCore\bin\Debug\netcoreapp2.1\ClassLibraryNetCore.pdb
+C:\Users\EliteBook\source\repos\ClassLibraryNetCore\ClassLibraryNetCore\obj\Debug\netcoreapp2.1\ClassLibraryNetCore.dll
+C:\Users\EliteBook\source\repos\ClassLibraryNetCore\ClassLibraryNetCore\obj\Debug\netcoreapp2.1\ClassLibraryNetCore.pdb
