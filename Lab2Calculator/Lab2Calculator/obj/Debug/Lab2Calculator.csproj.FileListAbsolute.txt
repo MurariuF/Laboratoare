@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\EliteBook\source\repos\Lab2Calculator\Lab2Calculator\bin\Debug\Lab2Calculator.exe.config
 C:\Users\EliteBook\source\repos\Lab2Calculator\Lab2Calculator\bin\Debug\Lab2Calculator.exe
 C:\Users\EliteBook\source\repos\Lab2Calculator\Lab2Calculator\bin\Debug\Lab2Calculator.pdb
@@ -8,3 +9,15 @@ C:\Users\EliteBook\source\repos\Lab2Calculator\Lab2Calculator\obj\Debug\Lab2Calc
 C:\Users\EliteBook\source\repos\Lab2Calculator\Lab2Calculator\obj\Debug\Lab2Calculator.csproj.CoreCompileInputs.cache
 C:\Users\EliteBook\source\repos\Lab2Calculator\Lab2Calculator\obj\Debug\Lab2Calculator.exe
 C:\Users\EliteBook\source\repos\Lab2Calculator\Lab2Calculator\obj\Debug\Lab2Calculator.pdb
+=======
+C:\Users\EliteBook\source\repos\Lab2Calculator\Lab2Calculator\bin\Debug\Lab2Calculator.exe.config
+C:\Users\EliteBook\source\repos\Lab2Calculator\Lab2Calculator\bin\Debug\Lab2Calculator.exe
+C:\Users\EliteBook\source\repos\Lab2Calculator\Lab2Calculator\bin\Debug\Lab2Calculator.pdb
+C:\Users\EliteBook\source\repos\Lab2Calculator\Lab2Calculator\obj\Debug\Lab2Calculator.csprojAssemblyReference.cache
+C:\Users\EliteBook\source\repos\Lab2Calculator\Lab2Calculator\obj\Debug\Lab2Calculator.Form1.resources
+C:\Users\EliteBook\source\repos\Lab2Calculator\Lab2Calculator\obj\Debug\Lab2Calculator.Properties.Resources.resources
+C:\Users\EliteBook\source\repos\Lab2Calculator\Lab2Calculator\obj\Debug\Lab2Calculator.csproj.GenerateResource.cache
+C:\Users\EliteBook\source\repos\Lab2Calculator\Lab2Calculator\obj\Debug\Lab2Calculator.csproj.CoreCompileInputs.cache
+C:\Users\EliteBook\source\repos\Lab2Calculator\Lab2Calculator\obj\Debug\Lab2Calculator.exe
+C:\Users\EliteBook\source\repos\Lab2Calculator\Lab2Calculator\obj\Debug\Lab2Calculator.pdb
+>>>>>>> fbd0d0cd91fd7fe5529c37720f03e50460779069
