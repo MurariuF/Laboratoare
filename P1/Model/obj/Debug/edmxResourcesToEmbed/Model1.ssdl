@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model1.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="Model1StoreContainer">
+    <EntitySet Name="Detaliis" EntityType="Model1.Store.Detaliis" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Extras" EntityType="Model1.Store.Extras" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="DetaliiExtras" Association="Model1.Store.DetaliiExtras">
+      <End Role="Detalii" EntitySet="Detaliis" />
+      <End Role="Extras" EntitySet="Extras" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Detaliis">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Data" Type="datetime" Nullable="false" />
+    <Property Name="Eveniment" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="Persoane" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="Peisaje" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="Locatie" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="Path" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="Deleted" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Extras">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nume" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Valoare" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="DetaliiId" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="DetaliiExtras">
+    <End Role="Detalii" Type="Model1.Store.Detaliis" Multiplicity="1" />
+    <End Role="Extras" Type="Model1.Store.Extras" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Detalii">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Extras">
+        <PropertyRef Name="DetaliiId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

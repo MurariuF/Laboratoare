@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Model1StoreContainer" CdmEntityContainer="Model1Container">
+    <EntitySetMapping Name="Detaliis">
+      <EntityTypeMapping TypeName="IsTypeOf(Model1.Detalii)">
+        <MappingFragment StoreEntitySet="Detaliis">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Data" ColumnName="Data" />
+          <ScalarProperty Name="Eveniment" ColumnName="Eveniment" />
+          <ScalarProperty Name="Persoane" ColumnName="Persoane" />
+          <ScalarProperty Name="Peisaje" ColumnName="Peisaje" />
+          <ScalarProperty Name="Locatie" ColumnName="Locatie" />
+          <ScalarProperty Name="Path" ColumnName="Path" />
+          <ScalarProperty Name="Deleted" ColumnName="Deleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Extras">
+      <EntityTypeMapping TypeName="IsTypeOf(Model1.Extras)">
+        <MappingFragment StoreEntitySet="Extras">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nume" ColumnName="Nume" />
+          <ScalarProperty Name="Valoare" ColumnName="Valoare" />
+          <ScalarProperty Name="DetaliiId" ColumnName="DetaliiId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

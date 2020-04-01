@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="Model1" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="Model1Container" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Detaliis" EntityType="Model1.Detalii" />
+    <EntitySet Name="Extras" EntityType="Model1.Extras" />
+    <AssociationSet Name="DetaliiExtras" Association="Model1.DetaliiExtras">
+      <End Role="Detalii" EntitySet="Detaliis" />
+      <End Role="Extras" EntitySet="Extras" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Detalii">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Data" Type="DateTime" Nullable="false" />
+    <Property Name="Eveniment" Type="String" Nullable="true" />
+    <Property Name="Persoane" Type="String" Nullable="true" />
+    <Property Name="Peisaje" Type="String" Nullable="true" />
+    <Property Name="Locatie" Type="String" Nullable="true" />
+    <Property Name="Path" Type="String" Nullable="true" />
+    <Property Name="Deleted" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Extras" Relationship="Model1.DetaliiExtras" FromRole="Detalii" ToRole="Extras" />
+  </EntityType>
+  <EntityType Name="Extras">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nume" Type="String" Nullable="false" />
+    <Property Name="Valoare" Type="String" Nullable="false" />
+    <NavigationProperty Name="Detalii" Relationship="Model1.DetaliiExtras" FromRole="Extras" ToRole="Detalii" />
+    <Property Name="DetaliiId" Type="Int32" Nullable="false" />
+  </EntityType>
+  <Association Name="DetaliiExtras">
+    <End Type="Model1.Detalii" Role="Detalii" Multiplicity="1" />
+    <End Type="Model1.Extras" Role="Extras" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Detalii">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Extras">
+        <PropertyRef Name="DetaliiId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
