@@ -16,6 +16,3 @@ C:\Users\EliteBook\source\repos\P1\GUI\obj\Debug\GUI.exe
 C:\Users\EliteBook\source\repos\P1\GUI\obj\Debug\GUI.pdb
 C:\Users\EliteBook\source\repos\P1\GUI\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\EliteBook\source\repos\P1\GUI\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\EliteBook\source\repos\P1\GUI\bin\Debug\Model.dll
-C:\Users\EliteBook\source\repos\P1\GUI\bin\Debug\Model.pdb
-C:\Users\EliteBook\source\repos\P1\GUI\bin\Debug\Model.dll.config

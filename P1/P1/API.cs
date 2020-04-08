@@ -4,17 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.Entity.Migrations.Model;
-using Model;
 
 namespace P1
 {
     public class API: IDisposable
     {
-        private Model1Container context;
+        private Model3Container context;
 
         public API()
         {
-            this.context = new Model1Container();
+            this.context = new Model3Container();
         }
         
         public Detalii getDetails(string path)

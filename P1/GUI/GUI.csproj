@@ -88,10 +88,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Model\Model.csproj">
-      <Project>{e2342702-5ac8-40e8-bf56-fb01d1cac8a7}</Project>
-      <Name>Model</Name>
-    </ProjectReference>
     <ProjectReference Include="..\P1\API.csproj">
       <Project>{8a92fb7b-44cf-4ae7-9232-7735635e2850}</Project>
       <Name>API</Name>

@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.ServiceModel;
-using Model;
-using P1;
+using P1.API;
 namespace ObjectWCF
 {
     [ServiceContract]
