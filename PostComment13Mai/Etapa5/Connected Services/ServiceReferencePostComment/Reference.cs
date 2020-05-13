@@ -23,7 +23,7 @@ namespace ServiceReferencePostComment
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     [System.Runtime.Serialization.DataContractAttribute(Name="Comment", Namespace="http://schemas.datacontract.org/2004/07/PostComment", IsReference=true)]
-    public partial class Comment : object
+    public partial class CommentDTO : object
     {
     }
     
@@ -48,13 +48,13 @@ namespace ServiceReferencePostComment
         System.Threading.Tasks.Task<System.Collections.Generic.List<ServiceReferencePostComment.Post>> GetPostsAsync();
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/InterfaceComment/AddComment", ReplyAction="http://tempuri.org/InterfaceComment/AddCommentResponse")]
-        System.Threading.Tasks.Task<bool> AddCommentAsync(ServiceReferencePostComment.Comment comment);
+        System.Threading.Tasks.Task<bool> AddCommentAsync(ServiceReferencePostComment.CommentDTO comment);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/InterfaceComment/UpdateComment", ReplyAction="http://tempuri.org/InterfaceComment/UpdateCommentResponse")]
-        System.Threading.Tasks.Task<ServiceReferencePostComment.Comment> UpdateCommentAsync(ServiceReferencePostComment.Comment newComment);
+        System.Threading.Tasks.Task<ServiceReferencePostComment.CommentDTO> UpdateCommentAsync(ServiceReferencePostComment.CommentDTO newComment);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/InterfaceComment/GetCommentById", ReplyAction="http://tempuri.org/InterfaceComment/GetCommentByIdResponse")]
-        System.Threading.Tasks.Task<ServiceReferencePostComment.Comment> GetCommentByIdAsync(int id);
+        System.Threading.Tasks.Task<ServiceReferencePostComment.CommentDTO> GetCommentByIdAsync(int id);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
@@ -132,17 +132,17 @@ namespace ServiceReferencePostComment
             return base.Channel.GetPostsAsync();
         }
         
-        public System.Threading.Tasks.Task<bool> AddCommentAsync(ServiceReferencePostComment.Comment comment)
+        public System.Threading.Tasks.Task<bool> AddCommentAsync(ServiceReferencePostComment.CommentDTO comment)
         {
             return base.Channel.AddCommentAsync(comment);
         }
         
-        public System.Threading.Tasks.Task<ServiceReferencePostComment.Comment> UpdateCommentAsync(ServiceReferencePostComment.Comment newComment)
+        public System.Threading.Tasks.Task<ServiceReferencePostComment.CommentDTO> UpdateCommentAsync(ServiceReferencePostComment.CommentDTO newComment)
         {
             return base.Channel.UpdateCommentAsync(newComment);
         }
         
-        public System.Threading.Tasks.Task<ServiceReferencePostComment.Comment> GetCommentByIdAsync(int id)
+        public System.Threading.Tasks.Task<ServiceReferencePostComment.CommentDTO> GetCommentByIdAsync(int id)
         {
             return base.Channel.GetCommentByIdAsync(id);
         }

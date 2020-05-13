@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7f0U/jjtK42p/okM9DGezxxdexwFWKBSFDwtk8eE2MqkUD92BwsjNJ9QtDylYc9oBzJiUCS+ncxMXJDk5s9VPQ==",
+  "dgSpecHash": "Oni6lTyK77pUYrdumk7Y0U/TbMlLygOp4lb94V0JcyTouLOgtGlJs78BVc9URKgBOjDH1qaUwFoBBl4Mm87dUg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\EliteBook\\source\\repos\\PostComment\\Etapa5\\Etapa5.csproj",
+  "projectFilePath": "C:\\Users\\EliteBook\\Documents\\GitHub\\Laboratoare\\PostComment13Mai\\Etapa5\\Etapa5.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\EliteBook\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\EliteBook\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\EliteBook\\source\\repos\\PostComment\\Etapa5\\Etapa5.csproj": {}
+    "C:\\Users\\EliteBook\\Documents\\GitHub\\Laboratoare\\PostComment13Mai\\Etapa5\\Etapa5.csproj": {}
   },
   "projects": {
-    "C:\\Users\\EliteBook\\source\\repos\\PostComment\\Etapa5\\Etapa5.csproj": {
+    "C:\\Users\\EliteBook\\Documents\\GitHub\\Laboratoare\\PostComment13Mai\\Etapa5\\Etapa5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\EliteBook\\source\\repos\\PostComment\\Etapa5\\Etapa5.csproj",
+        "projectUniqueName": "C:\\Users\\EliteBook\\Documents\\GitHub\\Laboratoare\\PostComment13Mai\\Etapa5\\Etapa5.csproj",
         "projectName": "Etapa5",
-        "projectPath": "C:\\Users\\EliteBook\\source\\repos\\PostComment\\Etapa5\\Etapa5.csproj",
+        "projectPath": "C:\\Users\\EliteBook\\Documents\\GitHub\\Laboratoare\\PostComment13Mai\\Etapa5\\Etapa5.csproj",
         "packagesPath": "C:\\Users\\EliteBook\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\EliteBook\\source\\repos\\PostComment\\Etapa5\\obj\\",
+        "outputPath": "C:\\Users\\EliteBook\\Documents\\GitHub\\Laboratoare\\PostComment13Mai\\Etapa5\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

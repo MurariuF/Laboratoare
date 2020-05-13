@@ -14,10 +14,10 @@ namespace Etapa5.Pages.Comments
         PostCommentClient pcc = new PostCommentClient();
         public CreateModel()
         {
-            CommentDTO = new CommentDTO();
+            CommentDTO = new Models.CommentDTO();
         }
         [BindProperty]
-        public CommentDTO CommentDTO { get; set; }
+        public Models.CommentDTO CommentDTO { get; set; }
         public async Task<IActionResult> OnGetAsync(int? id)
         {
             if (id.HasValue)
@@ -34,7 +34,7 @@ namespace Etapa5.Pages.Comments
             {
                 return Page();
             }
-            Comment comment = new Comment(); // acest tip este vazut in serviciu
+            ServiceReferencePostComment.CommentDTO comment = new ServiceReferencePostComment.CommentDTO(); // acest tip este vazut in serviciu
             int postId = 0;
             postId = id.Value;
             comment.PostPostId = postId;
