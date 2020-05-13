@@ -1,0 +1,15 @@
+C:\Users\EliteBook\source\repos\PostComment\ObjectWCF\bin\Debug\ObjectWCF.dll
+C:\Users\EliteBook\source\repos\PostComment\ObjectWCF\bin\Debug\ObjectWCF.pdb
+C:\Users\EliteBook\source\repos\PostComment\ObjectWCF\bin\Debug\PostComment.dll
+C:\Users\EliteBook\source\repos\PostComment\ObjectWCF\bin\Debug\EntityFramework.dll
+C:\Users\EliteBook\source\repos\PostComment\ObjectWCF\bin\Debug\PostComment.pdb
+C:\Users\EliteBook\source\repos\PostComment\ObjectWCF\bin\Debug\PostComment.dll.config
+C:\Users\EliteBook\source\repos\PostComment\ObjectWCF\bin\Debug\EntityFramework.xml
+C:\Users\EliteBook\source\repos\PostComment\ObjectWCF\obj\Debug\ObjectWCF.csprojAssemblyReference.cache
+C:\Users\EliteBook\source\repos\PostComment\ObjectWCF\obj\Debug\ObjectWCF.csproj.CoreCompileInputs.cache
+C:\Users\EliteBook\source\repos\PostComment\ObjectWCF\obj\Debug\ObjectWCF.csproj.CopyComplete
+C:\Users\EliteBook\source\repos\PostComment\ObjectWCF\obj\Debug\ObjectWCF.dll
+C:\Users\EliteBook\source\repos\PostComment\ObjectWCF\obj\Debug\ObjectWCF.pdb
+C:\Users\EliteBook\source\repos\PostComment\ObjectWCF\bin\Debug\ObjectWCF.dll.config
+C:\Users\EliteBook\source\repos\PostComment\ObjectWCF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\EliteBook\source\repos\PostComment\ObjectWCF\bin\Debug\EntityFramework.SqlServer.xml
