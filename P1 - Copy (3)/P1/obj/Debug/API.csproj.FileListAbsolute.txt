@@ -1,0 +1,24 @@
+C:\Users\EliteBook\source\repos\P1\P1\bin\Debug\P1.dll.config
+C:\Users\EliteBook\source\repos\P1\P1\bin\Debug\P1.dll
+C:\Users\EliteBook\source\repos\P1\P1\bin\Debug\P1.pdb
+C:\Users\EliteBook\source\repos\P1\P1\bin\Debug\EntityFramework.dll
+C:\Users\EliteBook\source\repos\P1\P1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\EliteBook\source\repos\P1\P1\bin\Debug\EntityFramework.xml
+C:\Users\EliteBook\source\repos\P1\P1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\EliteBook\source\repos\P1\P1\obj\Debug\API.csprojAssemblyReference.cache
+C:\Users\EliteBook\source\repos\P1\P1\obj\Debug\API.csproj.CoreCompileInputs.cache
+C:\Users\EliteBook\source\repos\P1\P1\obj\Debug\API.csproj.CopyComplete
+C:\Users\EliteBook\source\repos\P1\P1\obj\Debug\P1.dll
+C:\Users\EliteBook\source\repos\P1\P1\obj\Debug\P1.pdb
+C:\Users\EliteBook\source\repos\P1 - Copy (3)\P1\bin\Debug\P1.dll.config
+C:\Users\EliteBook\source\repos\P1 - Copy (3)\P1\bin\Debug\P1.dll
+C:\Users\EliteBook\source\repos\P1 - Copy (3)\P1\bin\Debug\P1.pdb
+C:\Users\EliteBook\source\repos\P1 - Copy (3)\P1\bin\Debug\EntityFramework.dll
+C:\Users\EliteBook\source\repos\P1 - Copy (3)\P1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\EliteBook\source\repos\P1 - Copy (3)\P1\bin\Debug\EntityFramework.xml
+C:\Users\EliteBook\source\repos\P1 - Copy (3)\P1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\EliteBook\source\repos\P1 - Copy (3)\P1\obj\Debug\API.csprojAssemblyReference.cache
+C:\Users\EliteBook\source\repos\P1 - Copy (3)\P1\obj\Debug\API.csproj.CoreCompileInputs.cache
+C:\Users\EliteBook\source\repos\P1 - Copy (3)\P1\obj\Debug\API.csproj.CopyComplete
+C:\Users\EliteBook\source\repos\P1 - Copy (3)\P1\obj\Debug\P1.dll
+C:\Users\EliteBook\source\repos\P1 - Copy (3)\P1\obj\Debug\P1.pdb

@@ -1,0 +1,62 @@
+﻿@page
+@model WebAPI.Pages.Detaliis.CreateModel
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Detalii</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="detalii">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="DetaliiDTO.Path" class="control-label"></label>
+                <input asp-for="DetaliiDTO.Path" class="form-control" />
+                <span asp-validation-for="DetaliiDTO.Path" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DetaliiDTO.Eveniment" class="control-label"></label>
+                <input asp-for="DetaliiDTO.Eveniment" class="form-control" />
+                <span asp-validation-for="DetaliiDTO.Eveniment" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DetaliiDTO.Persoane" class="control-label"></label>
+                <input asp-for="DetaliiDTO.Persoane" class="form-control" />
+                <span asp-validation-for="DetaliiDTO.Persoane" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DetaliiDTO.Data" class="control-label"></label>
+                <input asp-for="DetaliiDTO.Data" class="form-control" />
+                <span asp-validation-for="DetaliiDTO.Data" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DetaliiDTO.Locatie" class="control-label"></label>
+                <input asp-for="DetaliiDTO.Locatie" class="form-control" />
+                <span asp-validation-for="DetaliiDTO.Locatie" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DetaliiDTO.Peisaje" class="control-label"></label>
+                <input asp-for="DetaliiDTO.Peisaje" class="form-control" />
+                <span asp-validation-for="DetaliiDTO.Peisaje" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DetaliiDTO.Deleted" class="control-label"></label>
+                <input asp-for="DetaliiDTO.Deleted" class="form-control" />
+                <span asp-validation-for="DetaliiDTO.Deleted" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

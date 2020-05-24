@@ -1,0 +1,81 @@
+﻿@page
+@model WebAPI.Pages.Detaliis.IndexModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Detaliis[0].Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Detaliis[0].Path)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Detaliis[0].Eveniment)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Detaliis[0].Persoane)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Detaliis[0].Data)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Detaliis[0].Peisaje)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Detaliis[0].Locatie)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Detaliis[0].Deleted)
+            </th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in Model.Detaliis)
+        {
+        <tr style="font-size:small">
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Path)
+                <img src="@Url.Content(@item.Path)" />
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Eveniment)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Persoane)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Data)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Peisaje)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Locatie)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Deleted)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-page="/Extras/List" asp-route-id="@item.Id">Extras</a> |
+                <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a> |
+                <a asp-page="/Extras/Add" asp-route-id="@item.Id">Add Extras</a>
+            </td>
+            
+        </tr>
+        }
+    </tbody>
+</table>

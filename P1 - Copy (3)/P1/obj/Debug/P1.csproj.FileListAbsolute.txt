@@ -1,0 +1,15 @@
+C:\Users\EliteBook\source\repos\P1\P1\bin\Debug\P1.dll.config
+C:\Users\EliteBook\source\repos\P1\P1\bin\Debug\P1.dll
+C:\Users\EliteBook\source\repos\P1\P1\bin\Debug\P1.pdb
+C:\Users\EliteBook\source\repos\P1\P1\bin\Debug\EntityFramework.dll
+C:\Users\EliteBook\source\repos\P1\P1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\EliteBook\source\repos\P1\P1\bin\Debug\EntityFramework.xml
+C:\Users\EliteBook\source\repos\P1\P1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\EliteBook\source\repos\P1\P1\obj\Debug\P1.csprojAssemblyReference.cache
+C:\Users\EliteBook\source\repos\P1\P1\obj\Debug\P1.csproj.CoreCompileInputs.cache
+C:\Users\EliteBook\source\repos\P1\P1\obj\Debug\P1.csproj.CopyComplete
+C:\Users\EliteBook\source\repos\P1\P1\obj\Debug\P1.dll
+C:\Users\EliteBook\source\repos\P1\P1\obj\Debug\P1.pdb
+C:\Users\EliteBook\source\repos\P1\P1\bin\Debug\Model.dll
+C:\Users\EliteBook\source\repos\P1\P1\bin\Debug\Model.pdb
+C:\Users\EliteBook\source\repos\P1\P1\bin\Debug\Model.dll.config
