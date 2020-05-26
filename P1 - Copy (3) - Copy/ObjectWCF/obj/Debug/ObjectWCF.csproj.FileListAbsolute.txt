@@ -1,0 +1,25 @@
+C:\Users\EliteBook\source\repos\P1\ObjectWCF\bin\Debug\ObjectWCF.dll
+C:\Users\EliteBook\source\repos\P1\ObjectWCF\bin\Debug\ObjectWCF.pdb
+C:\Users\EliteBook\source\repos\P1\ObjectWCF\bin\Debug\P1.dll
+C:\Users\EliteBook\source\repos\P1\ObjectWCF\bin\Debug\EntityFramework.dll
+C:\Users\EliteBook\source\repos\P1\ObjectWCF\bin\Debug\P1.pdb
+C:\Users\EliteBook\source\repos\P1\ObjectWCF\bin\Debug\P1.dll.config
+C:\Users\EliteBook\source\repos\P1\ObjectWCF\bin\Debug\EntityFramework.xml
+C:\Users\EliteBook\source\repos\P1\ObjectWCF\obj\Debug\ObjectWCF.csprojAssemblyReference.cache
+C:\Users\EliteBook\source\repos\P1\ObjectWCF\obj\Debug\ObjectWCF.csproj.CoreCompileInputs.cache
+C:\Users\EliteBook\source\repos\P1\ObjectWCF\obj\Debug\ObjectWCF.csproj.CopyComplete
+C:\Users\EliteBook\source\repos\P1\ObjectWCF\obj\Debug\ObjectWCF.dll
+C:\Users\EliteBook\source\repos\P1\ObjectWCF\obj\Debug\ObjectWCF.pdb
+C:\Users\EliteBook\source\repos\P1 - Copy (3)\ObjectWCF\bin\Debug\ObjectWCF.dll.config
+C:\Users\EliteBook\source\repos\P1 - Copy (3)\ObjectWCF\bin\Debug\ObjectWCF.dll
+C:\Users\EliteBook\source\repos\P1 - Copy (3)\ObjectWCF\bin\Debug\ObjectWCF.pdb
+C:\Users\EliteBook\source\repos\P1 - Copy (3)\ObjectWCF\bin\Debug\EntityFramework.dll
+C:\Users\EliteBook\source\repos\P1 - Copy (3)\ObjectWCF\bin\Debug\P1.dll
+C:\Users\EliteBook\source\repos\P1 - Copy (3)\ObjectWCF\bin\Debug\P1.pdb
+C:\Users\EliteBook\source\repos\P1 - Copy (3)\ObjectWCF\bin\Debug\P1.dll.config
+C:\Users\EliteBook\source\repos\P1 - Copy (3)\ObjectWCF\bin\Debug\EntityFramework.xml
+C:\Users\EliteBook\source\repos\P1 - Copy (3)\ObjectWCF\obj\Debug\ObjectWCF.csprojAssemblyReference.cache
+C:\Users\EliteBook\source\repos\P1 - Copy (3)\ObjectWCF\obj\Debug\ObjectWCF.csproj.CoreCompileInputs.cache
+C:\Users\EliteBook\source\repos\P1 - Copy (3)\ObjectWCF\obj\Debug\ObjectWCF.csproj.CopyComplete
+C:\Users\EliteBook\source\repos\P1 - Copy (3)\ObjectWCF\obj\Debug\ObjectWCF.dll
+C:\Users\EliteBook\source\repos\P1 - Copy (3)\ObjectWCF\obj\Debug\ObjectWCF.pdb

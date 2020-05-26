@@ -1,0 +1,33 @@
+﻿@page
+@model WebAPI.Pages.Detaliis.IndexModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Proprietati
+            </th>
+            
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in Model.propSorted)
+        {
+        <tr style="font-size:small">
+            <td>
+                @Html.DisplayFor(modelItem => item)
+            </td>
+            
+        </tr>
+        }
+    </tbody>
+</table>
