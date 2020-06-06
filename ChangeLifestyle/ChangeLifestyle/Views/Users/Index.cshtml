@@ -1,0 +1,71 @@
+﻿@model IEnumerable<ChangeLifestyle.Areas.Identity.Data.ChangeLifestyleUser>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>New Registration</h1>
+<jr />
+
+<p>
+    <a asp-action="AddOrEdit">Create New</a>
+</p>
+
+<table class="table table-hover">
+    <thread>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Varsta)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Inaltimea)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Greutate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Data)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.rezultat1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.rezultat2)
+            </th>
+
+            <th>
+                <a asp-action="AddOrEdit" class="btn btn-outline-succes"><i class="far fa-plus-square"></i>Date</a>
+            </th>
+        </tr>
+    </thread>
+    <tbody>
+ @foreach (var item in Model)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Varsta)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Inaltimea)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Greutate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Data)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.rezultat1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.rezultat2)
+            </td>
+            <td>
+                <a asp-action="AddOrEdit" asp-route-id="@item.Id"><i class="fa-plus-square fa-master fa-lg"></i></a>
+                <a asp-action="Delete" asp-route-id="@item.Id" class="text-danger" ml-1 onclick="return confirm('Sigur doresti sa stergi inregistrarea?')"><i class="fa-lg fa-trash-alg fa-lg"></i></a>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
